@@ -80,8 +80,11 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\Web.config.transformation" />
-    <None Include="Web.config.transformation" />
+    <None Include="Content\Web.config.transform" />
+    <None Include="Views\Web.config.transform">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.config.transform" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

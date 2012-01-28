@@ -20,6 +20,10 @@ namespace CdnJs.Helpers
         /// <returns>An MvcHtmlString of containing the requested script</returns>
         public static MvcHtmlString LoadScript(string script)
         {
+            if(string.IsNullOrWhiteSpace(script))
+            {
+                return new MvcHtmlString(string.Empty);
+            }
             var package = new Core.CdnJs().GetPackage(script);
 
             if(package != null)
