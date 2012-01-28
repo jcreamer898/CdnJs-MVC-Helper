@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>-->
+    <projectUrl>https://github.com/jcreamer898/CdnJs-MVC-Helper</projectUrl>
+    <iconUrl>http://jcstuff.jcreamerlive.com/js.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>First release of CdnJs Helper.</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>JavaScript Helper MVC3 CdnJs</tags>
+  </metadata>
+</package>
